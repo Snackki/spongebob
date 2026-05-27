@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SpongeBob FlashPants</title>
 
+  <style>
+
+    @font-face {
+      font-family: spongeboy;
+      src: url(spongeboy.woff2);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('background.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: spongeboy;
+      color: #000;
+      text-align: center;
+    }
+
+    .top-message {
+      background: #003399;
+      color: white;
+      padding: 12px;
+      font-size: 14px;
+      border-bottom: 3px solid #000066;
+    }
+
+    .container {
+      width: 900px;
+      margin: 40px auto;
+    }
+
+    .languages {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .language .fi {
+      font-size: 7rem;
+      margin-bottom: 8px;
+      display: inline-block;
+    }
+
+    .language a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .language a:hover {
+      color: #003399;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 11px;
+      color: #444;
+    }
+  </style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css" />
+</head>
+<body>
+
+  <div class="top-message">
+    Welcome to Snackki's international SpongeBob webgame archive!! Click on your desired language below:
+  </div>
+
+  <div class="container">
+
+    <div class="languages">
+
+      <!-- Dutch -->
+      <div class="language">
+        <a href="nl/">
+          <span class="fi fi-nl"></span>
+          <div>Dutch</div>
+        </a>
+      </div>
+
+      <!-- German -->
+      <div class="language">
+        <a href="de/">
+          <span class="fi fi-de"></span>
+          <div>German</div>
+        </a>
+      </div>
+
+      <!-- Polish -->
+      <div class="language">
+        <a href="pl/">
+          <span class="fi fi-pl"></span>
+          <div>Polish</div>
+        </a>
+      </div>
+
+      <!-- Italian -->
+      <div class="language">
+        <a href="it/">
+          <span class="fi fi-it"></span>
+          <div>Italian</div>
+        </a>
+      </div>
+
+      <!-- Portuguese (Brazil) -->
+      <div class="language">
+        <a href="ptbr/">
+          <span class="fi fi-br"></span>
+          <div>Portuguese (Brazil)</div>
+        </a>
+      </div>
+
+      <!-- Spanish (Spain) -->
+      <div class="language">
+        <a href="es/">
+          <span class="fi fi-es"></span>
+          <div>Spanish (Spain)</div>
+        </a>
+      </div>
+
+      <!-- Spanish (Latin America) -->
+      <div class="language">
+        <a href="es419/">
+          <span class="fi fi-ve"></span>
+          <div>Spanish (Latin America)</div>
+        </a>
+      </div>
+
+    </div>
+
+</body>
+</html>
