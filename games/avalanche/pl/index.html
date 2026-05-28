@@ -146,9 +146,11 @@
     topOffset = Math.max(topH, Math.min(topOffset, vh - bottomH - size.height));
 
     game.style.position = "absolute";
-    game.style.left = "50%";
     game.style.top = topOffset + "px";
-    game.style.transform = "translateX(-50%)";
+    game.style.left = "0";
+    game.style.right = "0";
+    game.style.marginLeft = "auto";
+    game.style.marginRight = "auto";
   }
 
   window.addEventListener("resize", () => {
