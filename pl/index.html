@@ -7,13 +7,13 @@
   <style>
     @font-face {
       font-family: TikiPL;
-      src: url('../fonts/TikiPL.woff2');
+      src: url(TikiPL.woff2);
     }
 
     body {
       margin: 0;
       padding: 0;
-      background-image: url('../background.jpg');
+      background-image: url('background.jpg');
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
@@ -27,6 +27,7 @@
       padding: 12px;
       font-size: 28px;
       border-bottom: 3px solid #000066;
+      display: flex;
       text-align: center;
     }
 
@@ -58,6 +59,16 @@
     }
 
     .game a:hover {
+      color: #003399;
+    }
+
+    .back-button {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    .back-button:hover {
       color: #003399;
     }
 
@@ -95,8 +106,12 @@
 <body>
 
   <div class="top-message">
-    Welcome to Snackki's international SpongeBob webgame archive!!
+  <a href="spongebob/" class="back-button">Back</a>
+
+  <div style="margin: 0 auto;">
+    Welcome to Snackki's international SpongeBob webgame archive!! Click on your desired language below:
   </div>
+</div>
 
   <div class="container">
 
