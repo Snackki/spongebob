@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SpongeBob FlashPants</title>
+
+  <style>
+    @font-face {
+      font-family: TikiPL;
+      src: url('../../../fonts/TikiPL.woff2');
+    }
+
+    @font-face {
+      font-family: "Tiki Island";
+      src: url('../../../fonts/Tiki-Island.woff2');
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('../../../background.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: TikiPL;
+      color: #000;
+    }
+
+    .top-message {
+      background: #003399;
+      color: white;
+      padding: 8px;
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      font-size: 18px;
+      border-bottom: 2px solid #000066;
+      text-align: center;
+    }
+
+    .back-button {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+      a:hover {
+      color: #8099cc;
+    }
+
+    .source {
+      background: #003399;
+      color: white;
+      padding: 8px;
+      font-size: 18px;
+      text-decoration: none;
+      border-top: 2px solid #000066;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-family: "Tiki Island"
+    }
+    
+  </style>
+</head>
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script type="application/javascript" src="../../../swfobject.js"></script>
+<script type="application/javascript">
+  const DEFAULT_WIDTH = 960;
+  const DEFAULT_HEIGHT = 500;
+  const ASPECT_RATIO = DEFAULT_WIDTH / DEFAULT_HEIGHT;
+
+  let gameEl;
+
+  function getAvailableSize() {
+    const topBar = document.querySelector('.top-message');
+    const bottomBar = document.querySelector('.source');
+
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+
+    const topH = topBar ? topBar.offsetHeight : 0;
+    const bottomH = bottomBar ? bottomBar.offsetHeight : 0;
+
+    return {
+      width: vw,
+      height: vh - topH - bottomH
+    };
+  }
+
+  function calculateSize() {
+    const available = getAvailableSize();
+
+    let w = available.width;
+    let h = w / ASPECT_RATIO;
+
+    if (h > available.height) {
+      h = available.height;
+      w = h * ASPECT_RATIO;
+    }
+
+    return {
+      width: Math.floor(w),
+      height: Math.floor(h)
+    };
+  }
+
+  function applySize() {
+    const size = calculateSize();
+    if (!gameEl) return;
+
+    gameEl.style.width = size.width + "px";
+    gameEl.style.height = size.height + "px";
+  }
+
+  function embedOnce() {
+    gameEl = document.getElementById("game");
+
+    swfobject.embedSWF(
+      "spongebob_gary_crush_loader.swf",
+      "game",
+      DEFAULT_WIDTH,
+      DEFAULT_HEIGHT,
+      "10",
+      null,
+      null,
+      { wmode: "direct" }
+    );
+
+    setTimeout(() => {
+      gameEl = document.getElementById("game");
+      centerContainer();
+      applySize();
+    }, 50);
+  }
+
+  function centerContainer() {
+    const game = document.getElementById("game");
+
+    const topBar = document.querySelector('.top-message');
+    const bottomBar = document.querySelector('.source');
+
+    const topH = topBar ? topBar.offsetHeight : 0;
+    const bottomH = bottomBar ? bottomBar.offsetHeight : 0;
+
+    const vh = window.innerHeight;
+
+    const size = calculateSize();
+    const availableHeight = vh - topH - bottomH;
+
+    let topOffset = topH + (availableHeight - size.height) / 2;
+
+    topOffset = Math.max(topH, Math.min(topOffset, vh - bottomH - size.height));
+
+    game.style.position = "absolute";
+    game.style.top = topOffset + "px";
+    game.style.left = "0";
+    game.style.right = "0";
+    game.style.marginLeft = "auto";
+    game.style.marginRight = "auto";
+  }
+
+  window.addEventListener("resize", () => {
+    applySize();
+    centerContainer();
+  });
+
+  document.onreadystatechange = function () {
+    if (document.readyState === "complete") {
+      embedOnce();
+    }
+  };
+</script>
+
+<body>
+
+  <div class="top-message">
+    <a href="../../../pl" class="back-button">Back</a>
+
+    <div style="margin: 0 auto;">
+      Zakochany GacuŚ - Gary's Crush
+    </div>
+  </div>
+
+  <div id="game"></div>
+
+  <div class="source">
+    Source: <a target="_blank" href="https://www8.agame.com/mirror/flash/s/spongebob_gary%20crush/">www8.agame.com/mirror/flash/s/spongebob_gary crush/</a>
+  </div>
+
+</body>
+</html>
