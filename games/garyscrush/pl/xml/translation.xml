@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+<!-- english, when set to TRUE, ignores all localization data and uses the default text data in the FLA.-->
+<!-- rightToLeft, when set to TRUE, prints the text from right to left instead of left to right -->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the default size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Latin" english="true" rightToLeft="false">
+	
+
+<!--Preloader-->
+	
+<string id="loading"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Ladowanie]]></string>
+	
+
+<!--Basics-->
+	
+<string id="title"		fontName="Latin"	fontSize="32"	offsetX="0" offsetY="0"><![CDATA[Zakochany Gary]]></string>	
+	
+<string id="play"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Graj]]></string>
+	
+<string id="play_word"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Graj]]></string>
+	
+	
+<string id="play_again"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Powrot do gry]]></string>	
+	
+<string id="how_to_play"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Instrukcje]]></string>
+	
+<string id="next"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Dalej]]></string>
+	
+<string id="back"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Powrot do gry]]></string>
+	
+<string id="continue"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Jeszcze raz]]></string>
+	
+<string id="continue_word"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Jeszcze raz]]></string>
+	
+<string id="close"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Zamknij]]></string>
+	
+<string id="printable"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Printable]]></string>
+	
+<string id="enter_code"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Enter Code]]></string>
+	
+<string id="enter_code_header"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Enter Code:]]></string>
+	
+<string id="enter"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Enter]]></string>
+	
+<string id="invalid_code"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Invalid Code!]]></string>
+	
+<string id="code_accept"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Trampolines Enabled!]]></string>
+	
+
+<!--Game Buttons-->
+	
+<string id="menu"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Menu]]></string>
+	
+<string id="back_to_game"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Powrot do gry]]></string>
+	
+<string id="help"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Instrukcje]]></string>
+	
+<string id="sound_on"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Wlacz dzwiek]]></string>
+	
+<string id="sound_off"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Wylacz dzwiek]]></string>
+	
+<string id="resume"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Dalej]]></string>
+	
+
+<!--Quit-->
+	
+<string id="quit"			fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Zakoncz]]></string>
+	
+<string id="quit_confirm_header"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Na pewno chcesz zakonczyc?]]></string>
+	
+<string id="yes"			fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Tak]]></string>
+	
+<string id="no"				fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Nie]]></string>
+	
+
+<!--Gameplay-->
+	
+<string id="level"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Poziom]]></string>
+	
+<string id="score"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Wynik]]></string>	
+	
+<string id="paused"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Pauza]]></string>
+	
+<string id="level_up"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Poziom do gory]]></string>
+	
+<string id="game_over"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Koniec gry]]></string>
+	
+<string id="help_questionmark"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[?]]></string>
+	
+<string id="quit_x"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[x]]></string>		
+	
+
+<!--Leaderboard-->
+	
+<string id="you"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[You: ]]></string>
+	
+<string id="top"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Top]]></string>	
+	
+<string id="leaderboard"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Leaderboard]]></string>
+	
+<string id="submit_score"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Submit Score]]></string>
+		
+	
+
+<!-- Copy/Body -->
+	
+<string id="help_copy"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[HELP COPY]]></string>
+	
+<string id="watch"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Ogladaj SpongeBoba na Nickelodeonie]]></string>
+	
+<string id="help_arrows"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Uzyj strzalek by zawirowac!]]></string>
+	
+<string id="help_space"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Uzyj spacji by UDERZYC!]]></string>
+	
+<string id="help_launch"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Uzyj spacji ponownie by RUSZYC!]]></string>
+	<string id="help_launch_angle"		fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Uzyj spacji by zablokowac kat!]]></string>
+	
+<string id="help_shell_down"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Laduj muszla do dolu by zmiazdzyc wrogow!]]></string>	
+	
+<string id="help_snail_down"	fontName="Latin"	fontSize="16"	offsetX="0" offsetY="0"><![CDATA[Laduj miekko na brzuchu by zebrac prezenty!]]></string>	
+</strings>
