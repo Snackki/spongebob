@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>end.swf</universal_end_screen>
+	<arrows_txt>Uzyj STRZALEK by wymijac skrzynki</arrows_txt>
+	<how_to_txt>Instrukcje:</how_to_txt>
+	<level_txt>Poz.:</level_txt>
+	<continue_txt>Kontynuuj</continue_txt>
+	<continue_txt_rollover>Kontynuuj</continue_txt_rollover>
+	<play_intro_txt>GRAJ!</play_intro_txt>
+	<play_intro_txt_rollover>GRAJ!</play_intro_txt_rollover>
+	<next_txt>Dalej</next_txt>
+	<play_txt>GRAJ!</play_txt>
+	<score_txt>Wynik:</score_txt>
+	<why_txt>SpongeBob i Patryk "pozyczyli" skrzynie pelna zlotych monet od Latajacego Holendra, ktory oskarza ich teraz o kradziez! Pomoz im jak najszybciej ulotnic sie z pokladu!</why_txt>
+	<why_help_txt>POMOC!</why_help_txt>
+	<spacebar_duck_txt>PRZYTRZYMAJ spacje by sie schylic</spacebar_duck_txt>
+	<spacebar_jump_txt>KLIKNIJ spacje by przeskoczyc</spacebar_jump_txt>
+	<final_score_txt>Wynik koncowy</final_score_txt>
+</localization>
