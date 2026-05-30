@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<localization>		
+	
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	
+	<play_button>GRAJ</play_button>
+	<score>WYNIK</score>
+
+	<instructions>INSTRUKCJE</instructions>
+	<instructions_copy_1>Pan Krab potrzebuje swoich pieniędzy! Łap burgery do sejfu, a następnie wyrzucaj je do góry, żeby strącać z żółwi worki z pieniędzmi.</instructions_copy_1>	
+	<instructions_copy_2>KLIKNIJ myszką, żeby strzelać burgerami w stronę żółwi.
+	
+Poruszaj się za pomocą myszki.</instructions_copy_2>	
+	
+	<misses>PUDŁO</misses>
+	<patties>BURGERY</patties>
+	<game_over>KONIEC GRY</game_over>
+	
+	<continue_button>kontynuuj</continue_button>
+	
+</localization>
