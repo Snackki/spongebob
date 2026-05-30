@@ -74,21 +74,6 @@
 </head>
 
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-  <script type="text/javascript" src="jsembed.js"></script>
-      <script type="text/javascript">
-      // Get folder name for base 
-      var x = window.location.pathname;
-      var foldername = x.substring(0, x.indexOf('index.html'));
-      // Parameters configure jsembed itself.
-      var params = {
-        base: foldername,
-        api: "flambe",
-		scaletype: "fillto",
-        autoscale: "true",
-        libs: ["flambe.js"]
-      };
-      jsembed.embed("flambe.js", "embedTarget", "960", "560", params, {});
-      </script>   
 <script type="application/javascript" src="../../../swfobject.js"></script>
 <script type="application/javascript">
   const DEFAULT_WIDTH = 960;
