@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<universal_end_screen>sponge_universal_end.swf</universal_end_screen>
+	<loc_splash_watch>ZOBACZ "SPONGEBOBA KANCIASTPORTEGO" W NICKELODEONIE!</loc_splash_watch>
+	<loc_splash_play>Graj</loc_splash_play>
+	<loc_instructions_body>Och nie! Haczyki atakują SpongeBoba. Skacz po meduzach, żeby uniknąć haczyków, tylko nie spadnij! Lądowanie na bąbelkach daje ci dodatkowy sok!</loc_instructions_body>
+	<loc_instructions_play>KONTYNUUJ</loc_instructions_play>
+	<loc_ui_lives>Życia</loc_ui_lives>
+	<loc_ui_score>Wynik</loc_ui_score>
+	<loc_ui_levelup>Poziom</loc_ui_levelup>
+	<loc_payoff_score>WYNIK:</loc_payoff_score>
+	<loc_payoff_continue>KONTYNUUJ</loc_payoff_continue>
+</localization>
