@@ -1,0 +1,238 @@
+<config>
+			
+    <!-- SERVICES -->
+    <!-- Enable, disable, and configure services here -->
+    
+	<services>
+		<service type="analytics" enabled="false" id="8893773701998080128" />
+	</services>
+	
+	<!-- LOCALIZATION -->
+	      
+    <localization>
+    	<region>cn</region>
+    </localization>
+	
+	<!-- Pack Definitions 
+            This is where you will define flump animations for parsing in-engine -
+            This is also where you will define tilesheets to parse apart in-engine -
+            Follow this format -
+            
+                <pack id="pack_folder">
+                    <flump id="flump_folder"/>
+                    <tiles id="tile_folder/tilesheet"/>
+                </pack>
+    -->
+	<pack id="initial_load"/>
+    <pack id="cutscene_intro">
+    	<flump id="cutscenes/intro/flump_intro"/>
+    </pack>
+  
+    <pack id="cutscene_condensed"/>
+    <pack id="gameplay_universal">
+		<flump id="projectiles/flump_lightning"/>
+		<flump id="pickups/flump_effects"/>
+		<!-- <flump id="player/flump_player"/> -->
+	</pack>
+    <pack id="monster_bat">
+    	<flump id="monsters/bat/flump_bat"/>
+    </pack>
+    <pack id="monster_bomb">
+    	<flump id="monsters/bomb/flump_bomb"/>
+    </pack>
+    <pack id="monster_boss">
+    	<flump id="monsters/boss/flump_boss"/>
+    </pack>
+    <pack id="monster_crystal">
+    	<flump id="monsters/crystal/flump_crystal"/>
+    </pack>
+    <pack id="monster_exploder">
+    	<flump id="monsters/exploder/flump_exploder"/>
+    </pack>
+    <pack id="monster_fire">
+    	<flump id="monsters/fire/flump_fire"/>
+    </pack>
+    <pack id="monster_jumpover">
+    	<flump id="monsters/jumpover/flump_jumpover"/>
+    </pack>
+    <pack id="monster_jumpup">
+    	<flump id="monsters/jumpup/flump_jumpup"/>
+    </pack>
+    <pack id="monster_lava">
+    	<flump id="monsters/lava/flump_lava"/>
+    </pack>
+    <pack id="monster_light">
+    	<flump id="monsters/light/flump_light"/>
+    </pack>
+    <pack id="monster_push">
+    	<flump id="monsters/push/flump_push"/>
+    </pack>
+    <pack id="monster_shoot">
+    	<flump id="monsters/shoot/flump_shoot"/>
+    </pack>
+    <pack id="monster_squid">
+    	<flump id="monsters/squid/flump_squid"/>
+    </pack>
+    <pack id="monster_tongue">
+    	<flump id="monsters/tongue/flump_tongue"/>
+    </pack>
+    <pack id="monster_water">
+    	<flump id="monsters/water/flump_water"/>
+    </pack>
+    <pack id="monster_zaptrap">
+    	<flump id="monsters/zaptrap/flump_zaptrap"/>
+    </pack>
+    <pack id="zone_jungle"/>
+    <pack id="zone_rock"/>
+    <pack id="zone_temple"/>
+    <pack id="zone_village"/>
+    <pack id="zone_visitor_center"/>
+    <pack id="zone_volcano"/>
+	
+	<!-- Which packs to load automatically after the bootstrap -->
+	<initial>
+		<pack id="initial_load"/>
+		
+	</initial>
+    
+    <!-- Monster Island specific configuration! -->
+	<world>config/world.xml</world>
+	
+	<cutscenes folderRoot="assets/">
+		<index id="intro">xml/cutscenes/intro/index.xml</index>
+		<cutscene id="Scene1">config/cutscenes/Scene1.xml</cutscene>
+		<cutscene id="Scene2">config/cutscenes/Scene2.xml</cutscene>
+		<cutscene id="Scene3">config/cutscenes/Scene3.xml</cutscene>
+	</cutscenes>
+	
+	<dialogs folderRoot="assets/">
+		<dialog id="intro">config/dialog/intro/index.xml</dialog>
+		<dialog id="visitor_center_enter">config/dialog/visitor_center/enter.xml</dialog>
+		<dialog id="visitor_center_exit">config/dialog/visitor_center/exit.xml</dialog>
+		<dialog id="visitor_center_bat_monster">config/dialog/visitor_center/bat.xml</dialog>
+		<dialog id="visitor_center_footprint">config/dialog/visitor_center/footprint.xml</dialog>
+		<dialog id="visitor_center_welcome">config/dialog/visitor_center/welcome.xml</dialog>
+		
+		<dialog id="village_enter">config/dialog/sandy_village/chief_intro.xml</dialog>
+		
+		<dialog id="generic_red_gem">config/dialog/generic/red_gem.xml</dialog>
+		<dialog id="generic_blue_crystal">config/dialog/generic/blue_crystal.xml</dialog>
+		<dialog id="generic_red_crystal">config/dialog/generic/red_crystal.xml</dialog>
+		<dialog id="rideable_monster">config/dialog/generic/rideable_monster.xml</dialog>
+		<dialog id="tutorial_monster_hit">config/dialog/generic/tutorial_monster_hit.xml</dialog>
+		<dialog id="tutorial_monster_stun">config/dialog/generic/tutorial_monster_stun.xml</dialog>
+		
+		<dialog id="intro_monster_stone">config/dialog/generic/intro_monster_stone.xml</dialog>
+		<dialog id="ride_monster_stone">config/dialog/generic/ride_monster_stone.xml</dialog>
+		<dialog id="ride_monster_bomb">config/dialog/generic/ride_monster_bomb.xml</dialog>
+		
+		
+		<dialog id="volcano_statue_bomb">config/dialog/volcano/statue_bomb.xml</dialog>
+		<dialog id="volcano_statue_fire">config/dialog/volcano/statue_fire.xml</dialog>
+		<dialog id="end_krabs">config/dialog/volcano/end_krabs.xml</dialog>
+		<dialog id="end_squidward">config/dialog/volcano/end_squidward.xml</dialog>
+		<dialog id="end_sandy">config/dialog/volcano/end_sandy.xml</dialog>
+		<dialog id="end_patrick">config/dialog/volcano/end_patrick.xml</dialog>
+		<dialog id="end_retreat">config/dialog/volcano/end_retreat.xml</dialog>
+		<dialog id="boss_retreat">config/dialog/volcano/boss_retreat.xml</dialog>
+		
+		<dialog id="chief_idle">config/dialog/sandy_village/chief_idle.xml</dialog>
+		<dialog id="sandy_cook">config/dialog/sandy_village/sandy_cook.xml</dialog>
+		<dialog id="sandy_shrine">config/dialog/sandy_village/sandy_shrine.xml</dialog>
+		<dialog id="sandy_warrior_house">config/dialog/sandy_village/sandy_warrior_house.xml</dialog>
+		<dialog id="sandy_villager_house">config/dialog/sandy_village/sandy_villager_house.xml</dialog>
+		<dialog id="sandy_red_giant_crystal">config/dialog/sandy_village/red_giant_crystal.xml</dialog>
+		<dialog id="weapons">config/dialog/sandy_village/weapons.xml</dialog>
+		
+		<dialog id="final_boss_stage_one_intro">config/dialog/final_boss/stage_one_intro.xml</dialog>
+		<dialog id="final_boss_stage_one">config/dialog/final_boss/stage_one.xml</dialog>
+		<dialog id="final_boss_stage_two">config/dialog/final_boss/stage_two.xml</dialog>
+		<dialog id="final_boss_stage_three">config/dialog/final_boss/stage_three.xml</dialog>
+		
+	</dialogs>
+	
+    <!-- CHUNKS -->
+    
+    <chunks>
+    
+        <!-- ZONES -->
+        <chunk id="zone_beach">
+            <chunk>monsters_beach</chunk>
+            <pack>zone_jungle</pack>
+            <pack>zone_rock</pack>
+            <pack>zone_village</pack>
+        </chunk>
+    
+        <chunk id="zone_village">
+            <pack>zone_village</pack>
+            <pack>zone_jungle</pack>
+            <pack>zone_rock</pack>
+        </chunk>
+	
+        <chunk id="zone_temple">
+            <chunk>monsters_temple</chunk>
+            <pack>zone_village</pack>
+            <pack>zone_temple</pack>
+            <pack>zone_volcano</pack>
+            <pack>zone_visitor_center</pack>
+        </chunk>
+    
+        <chunk id="zone_visitor_center">
+            <pack>zone_visitor_center</pack>
+            <pack>zone_jungle</pack>
+            <pack>monster_tongue</pack>
+        </chunk>
+    
+        <chunk id="zone_rock">
+            <pack>zone_rock</pack>
+            <pack>zone_jungle</pack>
+            <pack>monster_tongue</pack>
+            <pack>monster_squid</pack>
+            <pack>monster_boss</pack>
+        </chunk>
+    
+        <chunk id="zone_volcano">
+            <chunk>monsters_volcano</chunk>
+            <pack>zone_volcano</pack>
+            <pack>monster_boss</pack>
+        </chunk>
+    
+        <chunk id="zone_boss">
+            <chunk>zone_volcano</chunk>
+            <pack>monster_boss</pack>
+        </chunk>
+        
+        <chunk id="zone_end">
+            <chunk>zone_volcano</chunk>
+            <pack>zone_jungle</pack>
+        </chunk>
+        
+        <!-- MONSTER CHUNKS -->
+        <chunk id="monsters_beach">
+            <pack>monster_jumpover</pack>
+            <pack>monster_jumpup</pack>
+            <pack>monster_water</pack>
+            <pack>monster_squid</pack>
+            <pack>monster_tongue</pack>
+        </chunk>
+	
+        <chunk id="monsters_temple">
+            <pack>monster_light</pack>
+            <pack>monster_shoot</pack>
+            <pack>monster_push</pack>
+            <pack>monster_zaptrap</pack>
+            <pack>monster_bat</pack>
+        </chunk>
+	
+        <chunk id="monsters_volcano">
+            <pack>monster_fire</pack>
+            <pack>monster_lava</pack>
+            <pack>monster_bomb</pack>
+            <pack>monster_exploder</pack>
+            <pack>monster_crystal</pack>
+        </chunk>
+        
+        <!-- END OF CHUNKS -->
+    </chunks>
+    
+</config>

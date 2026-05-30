@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontScale is Optional. It allows you to customize the size of the font used in this particular field. 1 is normal. 2 is double size. .5 is half size. Defaults to 1.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Basic">
+	<string id="orientation_landscape"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Please flip back to Landscape mode.]]></string>
+	<!--Preloader-->
+	<string id="loading"				fontName="buzzsaw_large"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Loading]]></string>
+	<!--Basics-->
+	<string id="title"					fontName="buzzsaw_large"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Return to Monster Island]]></string>
+	<string id="tap_anywhere"			fontName="buzzsaw_purple"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Tap Anywhere to Play]]></string>
+	<string id="click_anywhere"			fontName="buzzsaw_purple"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Click Anywhere to Play]]></string>
+	<!--Game Buttons-->
+	<string id="menu"					fontName="buzzsaw_purple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Menu]]></string>
+	<string id="map"					fontName="buzzsaw_purple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Map]]></string>
+	<string id="new_game"				fontName="buzzsaw_purple"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[New Game]]></string>
+	<string id="save_game"				fontName="buzzsaw_purple"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Spongebob]]></string>
+	<!--Quit-->
+	<string id="quit_confirm_header"	fontName="buzzsaw_purple"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Are you sure you want to quit?]]></string>
+	<string id="yes"					fontName="buzzsaw_red"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[Yes]]></string>
+	<string id="no"						fontName="buzzsaw_red"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[No]]></string>
+	<!-- Copy/Body -->
+	<string id="help_header"			fontName="buzzsaw_purple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[How to Play]]></string>
+	<string id="help_to"				fontName="buzzsaw_reddark"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[to]]></string>
+	<string id="help_for"				fontName="buzzsaw_reddark"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[for]]></string>
+	<string id="help_spacebar"			fontName="buzzsaw_reddark"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[space bar]]></string>
+	<string id="help_key_m"				fontName="buzzsaw_reddark"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[m  key]]></string>
+	<string id="help_key_z"				fontName="buzzsaw_reddark"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[z  key]]></string>
+	<string id="help_key_x"				fontName="buzzsaw_reddark"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[x  key]]></string>
+	<string id="help_move"				fontName="buzzsaw_reddark"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[move using]]></string>
+	<string id="help_attack"			fontName="buzzsaw_red"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[attack]]></string>
+	<string id="help_attack_mobile"		fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[attack/ monster attack]]></string>
+	<string id="help_interact"			fontName="buzzsaw_red"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[interact]]></string>
+	<string id="help_interact_mobile"	fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[interact]]></string>
+	<string id="help_control"			fontName="buzzsaw_red"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[control rod/dismount]]></string>
+	<string id="help_control_mobile"	fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[control wand/ dismount]]></string>
+	<string id="help_map"				fontName="buzzsaw_red"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[map]]></string>
+	<string id="help_map_mobile"		fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[map]]></string>
+	<string id="help_health"			fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[health]]></string>
+	<string id="help_gems"				fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[gems]]></string>
+	<string id="help_pause"				fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[pause]]></string>
+	<string id="help_tap"				fontName="buzzsaw_purple"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[tap and drag for]]></string>
+	<string id="help_joystick"			fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[joystick]]></string>	
+	<!--Game Objects-->
+	<string id="sign"					fontName="buzzsaw_small"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[Welcome!]]></string>
+	<string id="banner"					fontName="buzzsaw_reddark"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Welcome to monster Island]]></string>
+	<string id="welcome"				fontName="buzzsaw_reddark"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[welcome visitors]]></string>	
+	<!--Cutscenes-->
+	<string id="cs1_1"				 	fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Mr. Krabs and the rest of the gang left on a cruise ship to Monster Island.]]></string>
+	<string id="cs1_2"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[SpongeBob was too busy jellyfishing, so he missed the boat!]]></string>
+	<string id="cs1_3"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Luckily, a lone fisherman was passing by just then.]]></string>
+	<string id="cs1_4"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[SpongeBob waved him down and asked him to take him to Monster Island.]]></string>
+	<string id="cs1_5"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[The fisherman was happy to help.]]></string>
+	<string id="cs1_6"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[SpongeBob has to rush now to catch up!]]></string>
+	<string id="cs2_1"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[As SpongeBob stepped outside, he was attacked by a giant monster!]]></string>
+	<string id="cs2_2"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[SpongeBob was so terrified that he passed out.]]></string>
+	<string id="cs2_3"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Just before the monster devoured SpongeBob,]]></string>
+	<string id="cs2_4"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[A mysterious squirrel in strange clothes appeared.]]></string>
+	<string id="cs2_5"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[She grabbed SpongeBob and carried him away to safety.]]></string>	
+	<string id="cs3_1"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[SpongeBob and the gang ran outside to see all the monster waiting.]]></string>
+	<string id="cs3_2"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Now tame, the monsters were ready to carry SpongeBob and his friends back home.]]></string>
+	<string id="cs3_3"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[SpongeBob and his friends rode off into the sunset.]]></string>
+	<string id="cs3_4"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[However, they will not soon forget the day they revisited...]]></string>
+	<string id="cs3_5"					fontName="BuzzSawChippedAOE"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Monster Island!!!]]></string>	
+	<!--Dialog-->
+	<string id="final_intro"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[EEK!! The BIGGEST monster!]]></string>
+	<string id="final_one"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I'm not done with you yet!]]></string>
+	<string id="final_two"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[This is not over!]]></string>
+	<string id="final_three"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Nooooooooooooooo!]]></string>
+	<string id="blue_crystal"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[What a beautiful blue crystal!]]></string>
+	<string id="intro_monster_stone_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Yikes! He's made of stone.]]></string>
+	<string id="intro_monster_stone_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I bet my SPATULA wouldn't even tickle him.]]></string>
+	<string id="intro_monster_stone_3"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Maybe he won't mind if I just whack him...]]></string>
+	<string id="intro_monster_stone_4"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[with the ol' CONTROL WAND.]]></string>
+	<string id="red_crystal"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[What a beautiful red crystal!]]></string>
+	<string id="red_gem"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I wonder what this is.]]></string>
+	<string id="ride_monster_bomb_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[These bombs are pretty strong!]]></string>
+	<string id="ride_monster_bomb_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[They'll make short work of cracked boulders.]]></string>
+	<string id="ride_monster_stone"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I'll be invincible while I'm on this guy!]]></string>
+	<string id="rideable_monster"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Hey that monster looks big enough to ride!]]></string>
+	<string id="tutorial_monster_hit_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Hey that monster looks big enough to ride!]]></string>
+	<string id="tutorial_monster_hit_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I'll teach him a lesson with my SPATULA!]]></string>
+	<string id="tutorial_monster_stun"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Now's my chance to use the CONTROL ROD!]]></string>
+	<string id="intro_1"				fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Golly that row boat was slow.]]></string>	
+	<string id="intro_2"				fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I'd better catch up to everyone!]]></string>	
+	<string id="chief_idle_1"			fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Follow the path to the temple.]]></string>	
+	<string id="chief_idle_2"			fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Use the CONTROL WAND to wrangle those big ones!]]></string>	
+	<string id="chief_intro_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Where am I?]]></string>	
+	<string id="chief_intro_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[You're in my village. I'm Chief Dusty.]]></string>	
+	<string id="chief_intro_3"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[W-W-What was that thing?]]></string>	
+	<string id="chief_intro_4"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[That was the BIGGEST monster on the island.]]></string>	
+	<string id="chief_intro_5"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[It's been snatchin' up all them tourists.]]></string>	
+	<string id="chief_intro_6"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Oh no! My friends!]]></string>	
+	<string id="chief_intro_7"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[You'll need this CONTROL WAND to save them.]]></string>	
+	<string id="chief_intro_8"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[SLAP monsters with your spatula...]]></string>	
+	<string id="chief_intro_9"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[then BONK them with the wand!]]></string>	
+	<string id="chief_intro_10"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Now go save yer friends, ya cube!]]></string>	
+	<string id="red_giant_crystal_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Wow, that gem is huge!]]></string>	
+	<string id="red_giant_crystal_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Maybe I'll just touch it one time....]]></string>	
+	<string id="red_giant_crystal_3"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[SpongeBob! Don't you dare touch that gem!]]></string>	
+	<string id="sandy_cook_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Wow, that smells great!]]></string>	
+	<string id="sandy_cook_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Sure does!  I'm whipping up a pot of my world famous...]]></string>	
+	<string id="sandy_cook_3"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Monster Goo Stew! You want some?]]></string>	
+	<string id="sandy_cook_4"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[On second thought...]]></string>	
+	<string id="sandy_shrine"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Don't even think about stealing this here gem!]]></string>	
+	<string id="villager_house"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Make yourself at home.]]></string>
+	<string id="warrior_house_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I used to be an adventurer like you...]]></string>
+	<string id="warrior_house_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[until I bumped my knee on a rock.]]></string>	
+	<string id="weapons"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Who needs spears when you have a trusty spatula?]]></string>
+	<string id="bat"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[At least something is still standing.]]></string>		
+	<string id="enter_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Where is everyone???]]></string>	
+	<string id="enter_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Maybe they're further ahead.]]></string>	
+	<string id="exit_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Don't mind my looks.  I'm actually a monster.  RAWR!]]></string>
+	<string id="exit_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Eeep!  I'm so scared that I think I'm going to pass out.]]></string>
+	<string id="exit_3"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Yep, I'm definitely going to pass out. Here I go!]]></string>
+	<string id="exit_4"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Muahaha, I'm a monster.  RAWR!]]></string>
+	<string id="exit_5"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[>Not so fast, HIIIYAH!]]></string>
+	<string id="footprint_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Those footprints are huge!]]></string>	
+	<string id="footprint_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I hope I don't have to meet whatever made them.]]></string>	
+	<string id="welcome"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Where is his other eye?]]></string>	
+	<string id="boss_retreat_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[There's no turning back now!]]></string>
+	<string id="boss_retreat_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I'm ready, I'm ready, I'm ready...]]></string>
+	<string id="end_krabs_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Mr. Krabs!]]></string>
+	<string id="end_krabs_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[SpongeBob, you saved us!]]></string>
+	<string id="end_krabs_3"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Now don't go thinkin' you get free admission...]]></string>
+	<string id="end_krabs_4"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[just because you saved me.  Pay up!]]></string>
+	<string id="end_patrick_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Patrick, you're okay!]]></string>
+	<string id="end_patrick_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Oh hey, SpongeBob!]]></string>
+	<string id="end_patrick_3"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[We've been in this waiting room forever!]]></string>
+	<string id="end_patrick_4"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[I hope we start the tour soon.]]></string>
+	<string id="end_retreat"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Where're ya goin' SpongeBob?]]></string>
+	<string id="end_sandy_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Sandy!]]></string>
+	<string id="end_sandy_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[SpongeBob! That was some fancy fightin'!]]></string>
+	<string id="end_sandy_3"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[You made mince meat outta that big ol' monster!]]></string>
+	<string id="end_sandy_4"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Now lets wrangle us up some monsters...]]></string>
+	<string id="end_sandy_5"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[and ride on outta here!]]></string>
+	<string id="end_sandy_6"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[You got it!]]></string>
+	<string id="end_squidward_1"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Squidward, you're okay!]]></string>
+	<string id="end_squidward_2"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Oh great...]]></string>
+	<string id="end_squidward_3"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[just when I thought it couldn't get any worse...]]></string>
+	<string id="bomb"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Oh, only four heads?]]></string>
+	<string id="fire"					fontName="BuzzSawChippedAOE"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[This statue looks familiar!]]></string>
+	
+</strings>

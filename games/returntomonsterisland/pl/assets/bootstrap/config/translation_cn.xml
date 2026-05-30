@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's individual tag.-->
+
+<!-- <Node Attributes> -->
+<!-- id is not Optional. It tells flash which text field to change. -->
+<!-- fontScale is Optional. It allows you to customize the size of the font used in this particular field. 1 is normal. 2 is double size. .5 is half size. Defaults to 1.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the default font (specified by defaultFont).-->
+<!-- offsetX is Optional. It allows you to move the text field a certain number of pixels on the X axis. Leave it out or use 0 if you don't want to move the text. -->
+<!-- offsetY is Optional. It allows you to move the text field a certain number of pixels on the Y axis. Leave it out or use 0 if you don't want to move the text.--> 
+
+<strings defaultFont="Basic">
+	<string id="orientation_landscape"	fontName="Basic"	fontScale=".5"	offsetX="0" offsetY="0"><![CDATA[Powróc do układu poziomego ekranu.]]></string>
+	<!--Preloader-->
+	<string id="loading"				fontName="buzzsaw_large"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Ładowanie]]></string>
+	<!--Basics-->
+	<string id="title"					fontName="buzzsaw_large"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Powrót na Potworna Wyspe]]></string>
+	<string id="tap_anywhere"			fontName="buzzsaw_purple"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Dotknij gdziekolwiek by grac]]></string>
+	<string id="click_anywhere"			fontName="buzzsaw_purple"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Kliknij gdziekolwiek by grac]]></string>
+	<!--Game Buttons-->
+	<string id="menu"					fontName="buzzsaw_purple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Menu]]></string>
+	<string id="map"					fontName="buzzsaw_purple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Mapa]]></string>
+	<string id="new_game"				fontName="buzzsaw_purple"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Graj]]></string>
+	<string id="save_game"				fontName="buzzsaw_purple"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Spongebob]]></string>
+	<!--Quit-->
+	<string id="quit_confirm_header"	fontName="buzzsaw_purple"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[Na pewno chcesz zakonczyc?]]></string>
+	<string id="yes"					fontName="buzzsaw_red"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[Tak]]></string>
+	<string id="no"						fontName="buzzsaw_red"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[Nie]]></string>
+	<!-- Copy/Body -->
+	<string id="help_header"			fontName="buzzsaw_purple"	fontScale="1"	offsetX="0" offsetY="0"><![CDATA[Instrukcje]]></string>
+	<string id="help_to"				fontName="buzzsaw_reddark"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[ ]]></string>
+	<string id="help_for"				fontName="buzzsaw_reddark"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[ ]]></string>
+	<string id="help_spacebar"			fontName="buzzsaw_reddark"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[spacja]]></string>
+	<string id="help_key_m"				fontName="buzzsaw_reddark"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[   m    klawisz]]></string>
+	<string id="help_key_z"				fontName="buzzsaw_reddark"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[   z    klawisz]]></string>
+	<string id="help_key_x"				fontName="buzzsaw_reddark"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[   x    klawisz]]></string>
+	<string id="help_move"				fontName="buzzsaw_reddark"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Ruszaj uzywajac]]></string>
+	<string id="help_attack"			fontName="buzzsaw_red"	fontScale="0.6"	offsetX="0" offsetY="0"><![CDATA[Atakowac]]></string>
+	<string id="help_attack_mobile"		fontName="buzzsaw_green"	fontScale="0.24"	offsetX="0" offsetY="0"><![CDATA[Atakowac / atakowac potwora]]></string>
+	<string id="help_interact"			fontName="buzzsaw_red"	fontScale="0.5"	offsetX="0" offsetY="0"><![CDATA[Porozumiewac sie]]></string>
+	<string id="help_interact_mobile"	fontName="buzzsaw_green"	fontScale="0.3"	offsetX="0" offsetY="0"><![CDATA[Porozumiewac sie]]></string>
+	<string id="help_control"			fontName="buzzsaw_red"	fontScale="0.45"	offsetX="0" offsetY="0"><![CDATA[Drazek kontroli / porzuc]]></string>
+	<string id="help_control_mobile"	fontName="buzzsaw_green"	fontScale="0.25"	offsetX="0" offsetY="0"><![CDATA[Rózdzka kontroli/ porzuc]]></string>
+	<string id="help_map"				fontName="buzzsaw_red"	fontScale="0.7"	offsetX="0" offsetY="0"><![CDATA[mapa]]></string>
+	<string id="help_map_mobile"		fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[mapa]]></string>
+	<string id="help_health"			fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[zdrowie]]></string>
+	<string id="help_gems"				fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[klejnoty]]></string>
+	<string id="help_pause"				fontName="buzzsaw_green"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Pauza]]></string>
+	<string id="help_tap"				fontName="buzzsaw_purple"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[dotknij i pociagnij by joystick]]></string>
+	<string id="help_joystick"			fontName="buzzsaw_green"	fontScale="0.3"	offsetX="0" offsetY="0"><![CDATA[ ]]></string>	
+	<!--Game Objects-->
+	<string id="sign"					fontName="buzzsaw_small"	fontScale="0.8"	offsetX="0" offsetY="0"><![CDATA[Witamy!]]></string>
+	<string id="banner"					fontName="buzzsaw_reddark"	fontScale="0.51"	offsetX="0" offsetY="0"><![CDATA[Witamy na Potwornej Wyspie]]></string>
+	<string id="welcome"				fontName="buzzsaw_reddark"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[witamy gosci]]></string>	
+	<!--Cutscenes-->
+	<string id="cs1_1"				 	fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Pan Krab i reszta paczki wyruszyli w podróz na Potworna Wyspe.]]></string>
+	<string id="cs1_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[SpongeBob był tak zajety łowieniem meduz, ze przegapił godzine odjazdu!]]></string>
+	<string id="cs1_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Na szczescie samotny rybak własnie pojawił sie w poblizu.]]></string>
+	<string id="cs1_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[SpongeBob poprosił go o pomoc w dostaniu sie na Potworna Wyspe.]]></string>
+	<string id="cs1_5"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Rybak chetnie go podwiózł.]]></string>
+	<string id="cs1_6"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[SpongeBob musi sie pospieszyc, by dogonic towarzyszy!]]></string>
+	<string id="cs2_1"					fontName="BuzzSawChippedAOE"	fontScale="0.35"	offsetX="0" offsetY="0"><![CDATA[Jak tylko SpongeBob pojawił sie na miejscu, został zaatakowany przez gigantycznego potwora!]]></string>
+	<string id="cs2_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[SpongeBob tak sie przeraził, ze zemdlał ze strachu!]]></string>
+	<string id="cs2_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Zanim jednak potwór zdazył pozrec SpongeBoba,]]></string>
+	<string id="cs2_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[niespodziewanie pojawia sie tajemnicza, dziwnie ubrana wiewiórka.]]></string>
+	<string id="cs2_5"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Chwyciła SpongeBoba i zaniosła w bezpieczne miejsce.]]></string>	
+	<string id="cs3_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[SpongeBob i paczka wybiegli na zewnatrz i zobaczyli czekajace tam na nich potwory.]]></string>
+	<string id="cs3_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Oswojone potwory chciały zaniesc SpongeBoba i jego przyjaciół do domu.]]></string>
+	<string id="cs3_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[SpongeBob i jego przyjaciele odjechali w strone zachodzacego słonca.]]></string>
+	<string id="cs3_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Jednak długo jeszcze nie zapomna dnia, kiedy odwiedzili...]]></string>
+	<string id="cs3_5"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" offsetY="0"><![CDATA[Potworna Wyspe!!!]]></string>	
+	<!--Dialog-->
+	<string id="final_intro"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[EEK!! NAJWIeKSZY potwór!]]></string>
+	<string id="final_one"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 				offsetY="0"><![CDATA[Jeszcze z toba nie skonczyłem!]]></string>
+	<string id="final_two"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 				offsetY="0"><![CDATA[To jeszcze nie koniec!]]></string>
+	<string id="final_three"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Nieeeeeeeeeee!]]></string>
+	<string id="blue_crystal"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Jaki piekny, niebieski kryształ!]]></string>
+	<string id="intro_monster_stone_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 	offsetY="0"><![CDATA[Ajj, jest z kamienia.]]></string>
+	<string id="intro_monster_stone_2"					fontName="BuzzSawChippedAOE"	fontScale="0.34"	offsetX="0" offsetY="0"><![CDATA[Moge sie załozyc, ze moja ŁOPATA nawet by go nie połaskotała.]]></string>
+	<string id="intro_monster_stone_3"					fontName="BuzzSawChippedAOE"	fontScale="0.35"	offsetX="0" offsetY="0"><![CDATA[Moze sie nie obrazi, jesli po prostu go uderze...]]></string>
+	<string id="intro_monster_stone_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 	offsetY="0"><![CDATA[ta RÓzDzKa KONTROLI.]]></string>
+	<string id="red_crystal"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Jaki piekny, czerwony kryształ!]]></string>
+	<string id="red_gem"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 				offsetY="0"><![CDATA[Zastanawiam sie, co to jest.]]></string>
+	<string id="ride_monster_bomb_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 	offsetY="0"><![CDATA[Te bomby maja niezła siłe razenia!]]></string>
+	<string id="ride_monster_bomb_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 	offsetY="0"><![CDATA[Nieźle sie nadadza do skruszenia tych skał.]]></string>
+	<string id="ride_monster_stone"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 		offsetY="0"><![CDATA[Bede niezwyciezony, siedzac na tym gosciu!]]></string>
+	<string id="rideable_monster"					fontName="BuzzSawChippedAOE"	fontScale="0.35"	offsetX="0" 	offsetY="0"><![CDATA[Ten potwór wyglada na dosc duzego, by na nim pojeździc!]]></string>
+	<string id="tutorial_monster_hit_1"					fontName="BuzzSawChippedAOE"	fontScale="0.35"	offsetX="0" offsetY="0"><![CDATA[Ten potwór wyglada na dosc duzego, by na nim pojeździc!]]></string>
+	<string id="tutorial_monster_hit_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 	offsetY="0"><![CDATA[Wytłumacze mu co i jak za pomoca mojej ŁOPATY!]]></string>
+	<string id="tutorial_monster_stun"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 	offsetY="0"><![CDATA[Teraz moja kolej by uzyc DRazKA KONTROLI!]]></string>
+	<string id="intro_1"				fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Ojej, ta łódka była strasznie wolna.]]></string>	
+	<string id="intro_2"				fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Lepiej dołacze do innych!]]></string>	
+	<string id="chief_idle_1"			fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Podazaj sciezka do swiatyni.]]></string>	
+	<string id="chief_idle_2"			fontName="BuzzSawChippedAOE"	fontScale="0.35"	offsetX="0" 				offsetY="0"><![CDATA[Uzyj RÓzDzKI KONTROLI by zagonic tych olbrzymów!]]></string>	
+	<string id="chief_intro_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Gdzie jestem?]]></string>	
+	<string id="chief_intro_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Jestes w mojej wsi. Jestem wódz Dusty.]]></string>	
+	<string id="chief_intro_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[C-c-co to było?]]></string>	
+	<string id="chief_intro_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[To był NAJWIeKSZY potwór na wyspie.]]></string>	
+	<string id="chief_intro_5"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Porywał turystów.]]></string>	
+	<string id="chief_intro_6"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Ooo nie! Moi przyjaciele!]]></string>	
+	<string id="chief_intro_7"					fontName="BuzzSawChippedAOE"	fontScale="0.35"	offsetX="0" 		offsetY="0"><![CDATA[Bedziesz potrzebowac RÓzDzKI KONTROLI, by ich ocalic.]]></string>	
+	<string id="chief_intro_8"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[UDERZ potwory łopata...]]></string>	
+	<string id="chief_intro_9"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[a potem DŹGNIJ rózdzka!]]></string>	
+	<string id="chief_intro_10"					fontName="BuzzSawChippedAOE"	fontScale="0.38"	offsetX="0" 		offsetY="0"><![CDATA[A teraz biegnij ratowac przyjaciół, wesoła kostko!]]></string>	
+	<string id="red_giant_crystal_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 	offsetY="0"><![CDATA[Wow, ten klejnot jest olbrzymi!]]></string>	
+	<string id="red_giant_crystal_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 	offsetY="0"><![CDATA[Dotkne go tylko jeden raz...]]></string>	
+	<string id="red_giant_crystal_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 	offsetY="0"><![CDATA[SpongeBob! Nie waz sie dotykac klejnotu!]]></string>	
+	<string id="sandy_cook_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Wow, pachnie wspaniale!]]></string>	
+	<string id="sandy_cook_2"					fontName="BuzzSawChippedAOE"	fontScale="0.34"	offsetX="0" 		offsetY="0"><![CDATA[No pewnie, ze tak! Własnie gotuje mój znany na cały swiat...]]></string>	
+	<string id="sandy_cook_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Potworny Gulasz! Chcesz spróbowac?]]></string>	
+	<string id="sandy_cook_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Jednak po namysle...]]></string>	
+	<string id="sandy_shrine"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Nawet nie mysl o kradziezy tego klejnotu!]]></string>	
+	<string id="villager_house"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Czuj sie jak u siebie w domu.]]></string>
+	<string id="warrior_house_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 		offsetY="0"><![CDATA[Kiedys tez uwielbiałem przygody, jak ty...]]></string>
+	<string id="warrior_house_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 		offsetY="0"><![CDATA[do czasu, az stłukłem sobie kolano o skałe.]]></string>	
+	<string id="weapons"					fontName="BuzzSawChippedAOE"	fontScale="0.35"	offsetX="0" 			offsetY="0"><![CDATA[Kto potrzebuje włóczni, kiedy ma taka swietna łopate?]]></string>
+	<string id="bat"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Cos ciagle jeszcze stoi.]]></string>		
+	<string id="enter_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 				offsetY="0"><![CDATA[Gdzie sie wszyscy podziali?]]></string>	
+	<string id="enter_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 				offsetY="0"><![CDATA[Moze sa na przedzie.]]></string>	
+	<string id="exit_1"					fontName="BuzzSawChippedAOE"	fontScale="0.34"	offsetX="0" 				offsetY="0"><![CDATA[Nie zwracaj uwagi na mój wyglad. Jestem potworem. RAWR!]]></string>
+	<string id="exit_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Oooo! Jestem tak przerazony, ze zaraz zemdleje.]]></string>
+	<string id="exit_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Tak, zdecydowanie wybieram nieswiadomosc! Papa!]]></string>
+	<string id="exit_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Buahaha, jestem potworem! RAWR!]]></string>
+	<string id="exit_5"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Nie tak szybko, heja!]]></string>
+	<string id="footprint_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Te slady sa ogromne!]]></string>	
+	<string id="footprint_2"					fontName="BuzzSawChippedAOE"	fontScale="0.39"	offsetX="0" 		offsetY="0"><![CDATA[Mam nadzieje, ze nie spotkam tego, co je stworzylo.]]></string>	
+	<string id="welcome"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 				offsetY="0"><![CDATA[Gdzie podziało sie jego drugie oko?]]></string>	
+	<string id="boss_retreat_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Nie ma odwrotu!]]></string>
+	<string id="boss_retreat_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Jestem gotów, jestem gotów, jestem gotów...]]></string>
+	<string id="end_krabs_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Panie Krabie!]]></string>
+	<string id="end_krabs_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[SpongeBob, uratowałes nas!]]></string>
+	<string id="end_krabs_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Tylko nie mysl, ze bedziesz miał wstep za darmo...]]></string>
+	<string id="end_krabs_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[tylko dlatego, ze mnie uratowałes! Płac!]]></string>
+	<string id="end_patrick_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Patryk, wszystko z toba w porzadku!]]></string>
+	<string id="end_patrick_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[O czesc, SpongeBob!]]></string>
+	<string id="end_patrick_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Czekalismy w tym pokoju cała wiecznosc!]]></string>
+	<string id="end_patrick_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Mam nadzieje, ze podróz rozpocznie sie niebawem.]]></string>
+	<string id="end_retreat"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[A dokad to, SpongeBob?]]></string>
+	<string id="end_sandy_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Sandy!]]></string>
+	<string id="end_sandy_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[SpongeBob! To była niezła bijatyka!]]></string>
+	<string id="end_sandy_3"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Zbiłes tego potwora na kwasne jabłko!]]></string>
+	<string id="end_sandy_4"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Złapmy kilka potworów...]]></string>
+	<string id="end_sandy_5"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[i wyjedźmy stad na nich!]]></string>
+	<string id="end_sandy_6"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 			offsetY="0"><![CDATA[Udało sie!]]></string>
+	<string id="end_squidward_1"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 		offsetY="0"><![CDATA[Skalmar, wszystko z toba w porzadku!]]></string>
+	<string id="end_squidward_2"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 		offsetY="0"><![CDATA[swietnie...]]></string>
+	<string id="end_squidward_3"					fontName="BuzzSawChippedAOE"	fontScale="0.35"	offsetX="0" 	offsetY="0"><![CDATA[własnie kiedy myslałem, ze gorzej juz byc nie moze...]]></string>
+	<string id="bomb"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Oh, tylko cztery głowy?]]></string>
+	<string id="fire"					fontName="BuzzSawChippedAOE"	fontScale="0.4"	offsetX="0" 					offsetY="0"><![CDATA[Ta rzeźba wyglada znajomo!]]></string>
+	
+</strings>
