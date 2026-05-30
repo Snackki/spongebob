@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's tag-->
+<!-- english, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the defaul font (specified by defaultFont).-->
+<!-- id is not Optional. It determines where flash places the text.-->
+<strings defaultFont="Latin" english="false">
+	<!--Preloader-->
+	<string id="loading"	fontName="Latin"	fontSize="16"	><![CDATA[Ladowanie]]></string>
+	<!--Basics-->
+	<string id="title"		fontName="Latin"	fontSize="50" ><![CDATA[KORALOWA WSPINACZKA]]></string>	
+	<string id="play_txt"		fontName="Latin"	fontSize="50"	><![CDATA[GRAJ]]></string>
+	<string id="txt_play_help"	fontName="Latin"	fontSize="50"><![CDATA[GRAJ]]></string>
+	<string id="play_again"	fontName="Latin"	fontSize="20"	><![CDATA[JESZCZE RAZ]]></string>	
+	<string id="how_to_play"fontName="Latin"	fontSize="16"	><![CDATA[INSTRUKCJE]]></string>
+	<string id="next"		fontName="Latin"	fontSize="16"	><![CDATA[DALEJ]]></string>
+	<string id="back"		fontName="Latin"	fontSize="16"	><![CDATA[POWROT DO GRY]]></string>
+	<string id="continue_txt"	fontName="Latin"	fontSize="16"	><![CDATA[KONTYNUUJ]]></string>
+	<string id="close"		fontName="Latin"	fontSize="16"	><![CDATA[ZAMKNIJ]]></string>
+	<string id="printable"	fontName="Latin"	fontSize="16"	><![CDATA[PRINTABLE]]></string>
+	<!--Game Buttons-->
+	<string id="menu"		fontName="Latin"	fontSize="16"	><![CDATA[?]]></string>
+	<string id="help"		fontName="Latin"	fontSize="16"	><![CDATA[INSTRUKCJE]]></string>
+	<string id="sound_on"	fontName="Latin"	fontSize="16"	><![CDATA[WLACZ]]></string>
+	<string id="sound_off"	fontName="Latin"	fontSize="16"	><![CDATA[WYLACZ]]></string>
+	<string id="resume"		fontName="Latin"	fontSize="16"	><![CDATA[DALEJ]]></string>
+	<!--Quit-->
+	<string id="quit"		fontName="Latin"	fontSize="16"	><![CDATA[ZAKONCZ]]></string>
+	<string id="quit_confirm_header"	fontName="Latin"	fontSize="20"><![CDATA[Na pewno chcesz zakonczyc?]]></string>
+	<string id="yes"		fontName="Latin"	fontSize="22"	><![CDATA[TAK]]></string>
+	<string id="no"			fontName="Latin"	fontSize="22"	><![CDATA[NIE]]></string>
+	<string id="dont"		fontName="Latin"	fontSize="25"	><![CDATA[NIE PODDAWAJ SIE!]]></string>
+	<!--Gameplay-->
+	<string id="level"		fontName="Latin"	fontSize="16"	><![CDATA[POZIOM]]></string>
+	<string id="score"		fontName="Latin"	fontSize="16"	><![CDATA[WYNIK:]]></string>	
+	<string id="paused"		fontName="Latin"	fontSize="25"	><![CDATA[PAUZA]]></string>
+	<string id="level_up"	fontName="Latin"	fontSize="16"	><![CDATA[Poziom do góry]]></string>
+	<string id="game_over"	fontName="Latin"	fontSize="60"	><![CDATA[KONIEC GRY]]></string>	
+	<!--Leaderboard-->
+	<string id="you"		fontName="Latin"	fontSize="16"	><![CDATA[YOU: ]]></string>
+	<string id="top"		fontName="Latin"	fontSize="16"	><![CDATA[TOP]]></string>	
+	<string id="leaderboard"	fontName="Latin"	fontSize="16"><![CDATA[LEADERBOARD]]></string>
+	<string id="submit_score"	fontName="Latin"	fontSize="16"><![CDATA[SUBMIT SCORE]]></string>	
+	<!-- Copy/Body -->
+	<string id="help_copy"	fontName="Latin"	fontSize="16"><![CDATA[HELP COPY]]></string>
+	<string id="watch"		fontName="Latin"	fontSize="16"	><![CDATA[Watch 'Show Name' on]]></string>
+	<!-- instructions -->
+	<string id="instructions_title"		fontName="Latin"	fontSize="16"	><![CDATA[INSTRUKCJE]]></string>
+	<string id="instruction_body"		fontName="Latin"	fontSize="16"	><![CDATA[Uzyj strzalek by poprowadzic SpongeBoba przez labirynt z koralowych zrodel.
+Znajdz SUPER ZRODLO by przejsc na wyzszy poziom! Uwazaj na meduzy!]]></string>
+</strings>
