@@ -1,0 +1,11 @@
+<dialog>
+
+<character id="sb">ui/dialog/characters/char_sb</character>
+<character id="chief">ui/dialog/characters/char_chief</character>
+
+<dialog speaker="sb">red_giant_crystal_1</dialog>
+<dialog speaker="sb">red_giant_crystal_2</dialog>
+
+<dialog speaker="chief">red_giant_crystal_3</dialog>
+
+</dialog>

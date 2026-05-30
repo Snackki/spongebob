@@ -1,0 +1,10 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="krabs">ui/dialog/characters/char_krabs</character>
+	
+	<dialog speaker="sb">end_krabs_1</dialog>
+	<dialog speaker="krabs">end_krabs_2</dialog>
+	<dialog speaker="krabs">end_krabs_3</dialog>
+	<dialog speaker="krabs">end_krabs_4</dialog>
+	
+</dialog>

@@ -1,0 +1,16 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="chief">ui/dialog/characters/char_chief</character>
+	
+	<dialog speaker="sb">chief_intro_1</dialog>
+	<dialog speaker="chief">chief_intro_2</dialog>
+	<dialog speaker="sb">chief_intro_3</dialog>
+	<dialog speaker="chief">chief_intro_4</dialog>
+	<dialog speaker="chief">chief_intro_5</dialog>
+	<dialog speaker="sb">chief_intro_6</dialog>
+	<dialog speaker="chief">chief_intro_7</dialog>
+	<dialog speaker="chief">chief_intro_8</dialog> 
+	<dialog speaker="chief">chief_intro_9</dialog>
+	<dialog speaker="chief">chief_intro_10</dialog>
+	
+</dialog>

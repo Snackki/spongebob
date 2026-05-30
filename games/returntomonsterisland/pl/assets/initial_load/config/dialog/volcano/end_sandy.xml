@@ -1,0 +1,12 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="sandy">ui/dialog/characters/char_sandy</character>
+	
+	<dialog speaker="sb">end_sandy_1</dialog>
+	<dialog speaker="sandy">end_sandy_2</dialog>
+	<dialog speaker="sandy">end_sandy_3</dialog>
+	<dialog speaker="sandy">end_sandy_4</dialog>
+	<dialog speaker="sandy">end_sandy_5</dialog>
+	<dialog speaker="sb">end_sandy_6</dialog>
+	
+</dialog>

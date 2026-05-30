@@ -1,0 +1,7 @@
+<dialog>
+
+<character id="sb">ui/dialog/characters/char_sb</character>
+
+<dialog speaker="sb">red_gem</dialog>
+
+</dialog>

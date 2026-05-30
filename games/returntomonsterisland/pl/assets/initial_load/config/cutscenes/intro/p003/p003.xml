@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page>
+	<!-- Page ID -->
+	<id>p003</id>
+		
+	<!-- List of image assets to use on the page-->	
+	<image id="bg" assetid="cutscenes/intro/three"/>
+
+	<!-- Script which controls what happens on the page-->
+	
+	<script>	
+		<!-- MUST CREATE ALL ASSETS HERE -->
+
+        <step type="create">
+        	<type>bitmap</type>
+			<id>bg</id>
+			<image>bg</image>
+			<layer>0</layer>
+            <pos x="-250" y="-240"/>
+		</step>
+			
+		<!-- BEGIN SCRIPT HERE -->
+		
+		<!-- Set origin of image for scaling / rotating etc -->		
+		<step type="setorigin">
+			<id>bg</id> <!-- R - Image id for script -->
+			<origin x=".45" y=".62"/> <!-- O - What the origin will be -->
+		</step>
+				
+		<!-- Tween an image -->
+		
+		<step type="setvalue">
+			<id>bg</id>
+			<type>s</type> <!-- R - Type - tx ty (translate) r (rot) a (alpha) sx sy (scale) -->
+			<destPoint x=".7" y=".7"/> <!-- O - Point to move to if necessary -->
+		</step>
+      
+		<step type="tween">
+			<id>bg</id> <!-- R - Image id for script -->
+			<type>rtx</type> <!-- R - Type - tx ty (translate) r (rot) a (alpha) sx sy (scale) -->
+			<rate>4</rate> <!-- R - Rate of tween -->
+			<delay>.2</delay>
+			<dest>-230</dest>
+			<ease>ease</ease>
+		</step>
+		
+		<step type="tween">
+			<id>bg</id> <!-- R - Image id for script -->
+			<type>rty</type> <!-- R - Type - tx ty (translate) r (rot) a (alpha) sx sy (scale) -->
+			<rate>4</rate> <!-- R - Rate of tween -->
+			<delay>.2</delay>
+			<dest>40</dest>
+			<ease>ease</ease>
+		</step>
+			
+        <step type="wait">
+            <time>.5</time>
+        </step>
+        
+        <step type="wait">
+            <input>any</input>
+            <delayprogress>5.25</delayprogress>
+        </step>
+        
+        <step type="qpage">
+            <id>p004</id>
+            <wipe>ls</wipe>
+            <rate>d</rate>
+        </step>
+        
+        <step type="end"/>
+        
+	</script>
+</page>

@@ -1,0 +1,6 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	
+	<dialog speaker="sb">rideable_monster</dialog>
+	
+</dialog>

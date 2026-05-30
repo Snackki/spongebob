@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<index id="intro" chunk="cutscene_intro">
+	<!-- List of page config files to load-->
+	<page>p001/p001.xml</page>
+	<page>p002/p002.xml</page>    
+	<page>p003/p003.xml</page>    
+	<page>p004/p004.xml</page>    
+	<page>p005/p005.xml</page>        
+</index>

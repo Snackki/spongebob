@@ -1,0 +1,17 @@
+<dialog>
+
+<!-- speaker = the cutscene image -->
+
+<character id="scene_a">cutscene_condensed_1_1</character>
+<character id="scene_b">cutscene_condensed_1_2</character>
+
+<dialog speaker="scene_a">cs1_1</dialog>
+<dialog speaker="scene_a">cs1_2</dialog>
+
+<dialog speaker="scene_b">cs1_3</dialog>
+<dialog speaker="scene_b">cs1_4</dialog>
+<dialog speaker="scene_b">cs1_5</dialog>
+<dialog speaker="scene_b">cs1_6</dialog>
+
+
+</dialog>

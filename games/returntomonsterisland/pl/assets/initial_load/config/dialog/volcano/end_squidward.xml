@@ -1,0 +1,9 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="squid">ui/dialog/characters/char_squidward</character>
+	
+	<dialog speaker="sb">end_squidward_1</dialog>
+	<dialog speaker="squid">end_squidward_2</dialog>
+	<dialog speaker="squid">end_squidward_3</dialog>
+	
+</dialog>

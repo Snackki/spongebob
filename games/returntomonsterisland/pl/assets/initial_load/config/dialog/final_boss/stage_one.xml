@@ -1,0 +1,8 @@
+<dialog>
+
+<character id="boss">ui/dialog/characters/char_boss</character>
+
+<dialog speaker="boss">final_one</dialog>
+
+
+</dialog>

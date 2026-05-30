@@ -1,0 +1,7 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	
+	<dialog speaker="sb">tutorial_monster_hit_1</dialog>
+	<dialog speaker="sb">tutorial_monster_hit_2</dialog>
+	
+</dialog>

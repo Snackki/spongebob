@@ -1,0 +1,7 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="sandy">ui/dialog/characters/char_sandy</character>
+	
+	<dialog speaker="sandy">end_reatreat</dialog>
+	
+</dialog>

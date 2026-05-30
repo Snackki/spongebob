@@ -1,0 +1,8 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="chief">ui/dialog/characters/char_chief</character>
+	
+	<dialog speaker="">warrior_house_1</dialog>
+	<dialog speaker="">warrior_house_2</dialog>
+	
+</dialog>

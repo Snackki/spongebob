@@ -1,0 +1,9 @@
+<dialog>
+
+<character id="sb">ui/dialog/characters/char_sb</character>
+
+<dialog speaker="sb">footprint_1</dialog>
+<dialog speaker="sb">footprint_2</dialog>
+
+
+</dialog>
