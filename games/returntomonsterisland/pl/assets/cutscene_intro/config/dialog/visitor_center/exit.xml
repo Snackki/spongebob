@@ -1,0 +1,12 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="krabs">ui/dialog/characters/char_krabs</character>
+	<character id="chief">ui/dialog/characters/char_chief</character>
+	
+	<dialog speaker="krabs">Don't mind my looks.  I'm actually a monster.  RAWR!</dialog>
+	<dialog speaker="sb">Eeep!  I'm so scared that I think I'm going to pass out.</dialog>
+	<dialog speaker="sb">Yep, I'm definitely going to pass out. Here I go!</dialog>
+	<dialog speaker="krabs">Muahaha, I'm a monster.  RAWR!</dialog>
+	<dialog speaker="chief">Not so fast, HIIIYAH!</dialog>
+	
+</dialog>

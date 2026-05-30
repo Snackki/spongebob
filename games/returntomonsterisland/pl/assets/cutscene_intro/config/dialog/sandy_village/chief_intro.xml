@@ -1,0 +1,16 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="chief">ui/dialog/characters/char_chief</character>
+	
+	<dialog speaker="sb">Where am I?</dialog>
+	<dialog speaker="chief">You're in my village. I'm Chief Dusty.</dialog>
+	<dialog speaker="sb">W-W-What was that thing?</dialog>
+	<dialog speaker="chief">That was the BIGGEST monster on the island.</dialog>
+	<dialog speaker="chief">It's been snatchin' up all them tourists.</dialog>
+	<dialog speaker="sb">Oh no! My friends!</dialog>
+	<dialog speaker="chief">You'll need this CONTROL WAND to save them.</dialog>
+	<dialog speaker="chief">SLAP monsters with your spatula...</dialog> 
+	<dialog speaker="chief">then BONK them with the wand!</dialog>
+	<dialog speaker="chief">Now go save yer friends, ya cube!</dialog>
+	
+</dialog>

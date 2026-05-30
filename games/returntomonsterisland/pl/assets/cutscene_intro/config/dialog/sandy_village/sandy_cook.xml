@@ -1,0 +1,10 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="chief">ui/dialog/characters/char_chief</character>
+	
+	<dialog speaker="sb">Wow, that smells great!</dialog>
+	<dialog speaker="">I'm whipping up a pot of my world famous...</dialog>
+	<dialog speaker="">Monster Goo Stew! You want some?</dialog>=
+	<dialog speaker="sb">On second thought...</dialog>
+	
+</dialog>

@@ -1,0 +1,8 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="chief">ui/dialog/characters/char_chief</character>
+	
+	<dialog speaker="">I used to be an adventurer like you...</dialog>
+	<dialog speaker="">until I bumped my knee on a rock. </dialog>
+	
+</dialog>

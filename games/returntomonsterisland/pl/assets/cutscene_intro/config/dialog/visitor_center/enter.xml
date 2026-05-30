@@ -1,0 +1,7 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	
+	<dialog speaker="sb">Where is everyone???</dialog>
+	<dialog speaker="sb">Maybe they're further ahead.</dialog>
+	
+</dialog>

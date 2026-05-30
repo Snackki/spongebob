@@ -1,0 +1,8 @@
+<dialog>
+	<character id="sb">ui/dialog/characters/char_sb</character>
+	<character id="chief">ui/dialog/characters/char_chief</character>
+	
+	<dialog speaker="chief">Follow the path to the temple.</dialog>
+	<dialog speaker="chief">Use the CONTROL WAND to wrangle those big ones!</dialog>
+	
+</dialog>
