@@ -1,0 +1,23 @@
+<config>
+	<ad_interruption enabled="false">ad_animation/MQ_logo_ani.swf</ad_interruption>
+	<!-- Printable -->
+	<printable enabled="false" />
+	<serviceSettings>
+		<servicesModuleURL>nick_services_module.swf</servicesModuleURL>		
+		<enableServices>false</enableServices> <!-- Set to FALSE to disable all Nick Services completely. TRUE will follow the specific service settings. -->
+		<enableLogin>false</enableLogin>
+		<enableLeaderboard>false</enableLeaderboard>
+		<enableNickPoints>false</enableNickPoints>		
+		<enableTracking>false</enableTracking>
+		<serviceManagerURL>/common/flash/services/ServiceManager.swf</serviceManagerURL>
+		<serviceManagerConfigURL>/common/flash/services/data/services.xml</serviceManagerConfigURL>		
+	</serviceSettings>
+	<tracking>
+		<gameName>Spongebob:IloveSpongebob</gameName>
+		<urlAlias>Spongebob-squarepants-i-love-spongebob</urlAlias> <!-- This is currently only used for Printable tracking-->
+		<showID>spo</showID> <!-- This is currently only used for Printable tracking-->
+	</tracking>
+	<leaderboard>
+		<gameID>spongebob-squarepants-i-love-spongebob-hsb</gameID>
+	</leaderboard>
+</config>

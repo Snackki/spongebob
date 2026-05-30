@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--<translation attributes>-->
+<!-- defaultFont dictates the font (based on the id set in fonts.xml) that all fields will use unless fontId is specified within that field's tag-->
+<!-- english, when set to TRUE, ignores all localization and uses the default field data in the FLA.-->
+
+<!-- <Node Attributes> -->
+<!-- fontSize is Optional. It allows you to customize the size of the font used in this particular field. Leave it out to use the defaul size in the FLA.-->
+<!-- fontName is Optional. It allows you to customize the font used in this particular field. Leave it out to use the defaul font (specified by defaultFont).-->
+<!-- id is not Optional. It determines where flash places the text.-->
+<strings defaultFont="General" english="true">
+	<!--Preloader-->
+	<string id="loading"	fontName="General"	fontSize="16"	><![CDATA[Ladowanie]]></string>
+	<!--Basics-->
+	<string id="title"		fontName="General"	><![CDATA[I LOVE SPONGEBOB]]></string>	
+	<string id="play"		fontName="General"	fontSize="16"	><![CDATA[GRAJ]]></string>
+	<string id="play_word"		fontName="General"	fontSize="16"	><![CDATA[GRAJ]]></string>
+	<string id="play_again"	fontName="General"	fontSize="16"	><![CDATA[JESZCZE RAZ]]></string>	
+	<string id="how_to_play"fontName="General"	fontSize="16"	><![CDATA[Instrukcje]]></string>
+	<string id="next"		fontName="General"	fontSize="16"	><![CDATA[Dalej]]></string>
+	<string id="back"		fontName="General"	fontSize="16"	><![CDATA[Dalej]]></string>
+	<string id="continue"	fontName="General"	fontSize="16"	><![CDATA[Dalej]]></string>
+	<string id="continue_word"	fontName="General"	fontSize="16"	><![CDATA[DALEJ]]></string>
+	<string id="close"		fontName="General"	fontSize="16"	><![CDATA[X]]></string>
+	<string id="printable"	fontName="General"	fontSize="16"	><![CDATA[PRINT ME]]></string>
+	<string id="applaud"	fontName="General"	fontSize="16"	><![CDATA[APPLAUZ]]></string>
+	<!--Game Buttons-->
+	<string id="menu"		fontName="General"	fontSize="16"	><![CDATA[?]]></string>
+	<string id="back_to_game"	fontName="General"	fontSize="16"	><![CDATA[Dalej]]></string>
+	<string id="help"		fontName="General"	fontSize="16"	><![CDATA[Instrukcje]]></string>
+	<string id="sound_on"	fontName="General"	fontSize="16"	><![CDATA[Wlacz dzwiek]]></string>
+	<string id="sound_off"	fontName="General"	fontSize="16"	><![CDATA[Wylacz dzwiek]]></string>
+	<string id="resume"		fontName="General"	fontSize="16"	><![CDATA[Dalej]]></string>
+	<!--Quit-->
+	<string id="quit"		fontName="General"	fontSize="16"	><![CDATA[Zakoncz]]></string>
+	<string id="quit_confirm_header"	fontName="General"	fontSize="16"><![CDATA[NA PEWNO?]]></string>
+	<string id="yes"		fontName="General"	fontSize="16"	><![CDATA[TAK]]></string>
+	<string id="no"			fontName="General"	fontSize="16"	><![CDATA[NIE]]></string>
+	<!--Gameplay-->
+	<string id="level"		fontName="General"	fontSize="16"	><![CDATA[POZIOM]]></string>
+	<string id="score"		fontName="General"	fontSize="16"	><![CDATA[WYNIK:]]></string>	
+	<string id="reveal_meter"		fontName="General"	fontSize="16"	><![CDATA[Wyjawiacz:]]></string>	
+	<string id="paused"		fontName="General"	fontSize="16"	><![CDATA[Pauze]]></string>
+	<string id="level_up"	fontName="General"	fontSize="16"	><![CDATA[Level Up]]></string>
+	<string id="game_over"	fontName="General"	fontSize="16"	><![CDATA[Koniec gry]]></string>	
+	<!--Leaderboard-->
+	<string id="you"		fontName="General"	fontSize="16"	><![CDATA[You: ]]></string>
+	<string id="top"		fontName="General"	fontSize="16"	><![CDATA[Top]]></string>	
+	<string id="leaderboard"	fontName="General"	fontSize="16"><![CDATA[LEADERBOARD]]></string>
+	<string id="submit_score"	fontName="General"	fontSize="16"><![CDATA[SUBMIT SCORE]]></string>	
+	<!-- Copy/Body -->
+	<string id="end_correct_text"		fontName="General"	fontSize="16"	><![CDATA[HURRAAA! Udalo ci sie!]]></string>
+	<string id="end_incorrect_text"		fontName="General"	fontSize="16"	><![CDATA[Uuups! Nie udalo sie!]]></string>
+	<string id="question"				fontName="General"	fontSize="16"	><![CDATA[Kto kocha SpongeBoba?]]></string>
+	<string id="answer_label_a"			fontName="General"	fontSize="16"	><![CDATA[A.]]></string>
+	<string id="answer_label_b"			fontName="General"	fontSize="16"	><![CDATA[B.]]></string>
+	<string id="answer_label_c"			fontName="General"	fontSize="16"	><![CDATA[C.]]></string>
+	<string id="answer_pearl"			fontName="General"	fontSize="16"	><![CDATA[Perla]]></string>
+	<string id="answer_squidward"		fontName="General"	fontSize="16"	><![CDATA[Skalmar]]></string>
+	<string id="answer_puff"			fontName="General"	fontSize="16"	><![CDATA[Pani Puff]]></string>
+	<string id="answer_krabs"			fontName="General"	fontSize="16"	><![CDATA[Pan Krab]]></string>
+	<string id="answer_sandy"			fontName="General"	fontSize="16"	><![CDATA[Sandy]]></string>
+	<string id="answer_gary"			fontName="General"	fontSize="16"	><![CDATA[Gacus]]></string>
+	<string id="answer_jelly"			fontName="General"	fontSize="16"	><![CDATA[Meduza]]></string>
+	<string id="answer_plankton"		fontName="General"	fontSize="16"	><![CDATA[Plankton]]></string>
+	<string id="response_perfect"		fontName="General"	fontSize="16"	><![CDATA[IDEALNY WYNIK! Tak trzymaj!]]></string>
+	<string id="response_great"			fontName="General"	fontSize="16"	><![CDATA[ŚWIETNA ROBOTA! Idziemy dalej!]]></string>
+	<string id="response_nice"			fontName="General"	fontSize="16"	><![CDATA[Niezly strzal! Idziemy dalej!]]></string>
+	<string id="plinko_instructions_label"	fontName="General"	fontSize="16"	><![CDATA[SLODKI FLIPPER]]></string>
+	<string id="plinko_instructions"		fontName="General"	fontSize="16"	><![CDATA[Kliknij by upuscic pilke i otrzymac tyle punktow ile tylko mozliwe!]]></string>
+	<string id="bell_instructions_label"	fontName="General"	fontSize="16"	><![CDATA[MILOSCIOMIERZ]]></string>
+	<string id="bell_instructions"			fontName="General"	fontSize="16"	><![CDATA[Kliknij, by zatrzymac pomiar jak najblizej zoltej linii!]]></string>
+	<string id="wheel_instructions_label"	fontName="General"	fontSize="16"	><![CDATA[STRZALA AMORA]]></string>
+	<string id="wheel_instructions"			fontName="General"	fontSize="16"	><![CDATA[Wyceluj i kliknij, by wystrzelic strzale. Celuj w punkty, nie w Partyka!]]></string>
+	<string id="help_01"					fontName="General"	fontSize="16"	><![CDATA[Heja, piekne panie i slimaki morskie!
+Witamy w KOCHAM SPONGEBOBA!]]></string>
+	<string id="help_02"					fontName="General"	fontSize="16"	><![CDATA[Oto gra, w ktorej dowiecie sie, kto ma walentynke dla tej eleganckiej gabki.]]></string>
+	<string id="help_03"					fontName="General"	fontSize="16"	><![CDATA[Zacznijmy pierwsza gre!]]></string>
+	<string id="target"		fontName="General"	fontSize="16"	><![CDATA[Cel]]></string>
+</strings>
