@@ -129,8 +129,10 @@
     gameEl.style.width = DEFAULT_WIDTH + "px";
     gameEl.style.height = DEFAULT_HEIGHT + "px";
 
-    gameEl.style.transformOrigin = "top left";
-    gameEl.style.transform = `scale(${scale})`;
+    gameEl.style.zoom = scale;
+
+    gameEl.style.transform = "";
+    gameEl.style.transformOrigin = "";
   }
 
   function embedOnce() {
