@@ -79,13 +79,12 @@
 <script type="application/javascript">
   const DEFAULT_WIDTH = 960;
   const DEFAULT_HEIGHT = 560;
-  const ASPECT_RATIO = DEFAULT_WIDTH / DEFAULT_HEIGHT;
 
   let gameEl;
 
   function getAvailableSize() {
-    const topBar = document.querySelector('.top-message');
-    const bottomBar = document.querySelector('.source');
+    const topBar = document.querySelector(".top-message");
+    const bottomBar = document.querySelector(".source");
 
     const vw = window.innerWidth;
     const vh = window.innerHeight;
@@ -95,33 +94,44 @@
 
     return {
       width: vw,
-      height: vh - topH - bottomH
+      height: vh - topH - bottomH,
+      topH,
+      bottomH
     };
   }
 
-  function calculateSize() {
+  function calculateScale() {
     const available = getAvailableSize();
-
-    let w = available.width;
-    let h = w / ASPECT_RATIO;
-
-    if (h > available.height) {
-      h = available.height;
-      w = h * ASPECT_RATIO;
-    }
-
-    return {
-      width: Math.floor(w),
-      height: Math.floor(h)
-    };
+    return Math.min(
+      available.width / DEFAULT_WIDTH,
+      available.height / DEFAULT_HEIGHT
+    );
   }
 
-  function applySize() {
-    const size = calculateSize();
+  function applyZoomSize() {
     if (!gameEl) return;
 
-    gameEl.style.width = size.width + "px";
-    gameEl.style.height = size.height + "px";
+    const available = getAvailableSize();
+    const scale = calculateScale();
+
+    const scaledWidth = DEFAULT_WIDTH * scale;
+    const scaledHeight = DEFAULT_HEIGHT * scale;
+
+    const left = Math.max(0, (available.width - scaledWidth) / 2);
+    const top = Math.max(
+      available.topH,
+      available.topH + (available.height - scaledHeight) / 2
+    );
+
+    gameEl.style.position = "absolute";
+    gameEl.style.left = Math.floor(left) + "px";
+    gameEl.style.top = Math.floor(top) + "px";
+
+    gameEl.style.width = DEFAULT_WIDTH + "px";
+    gameEl.style.height = DEFAULT_HEIGHT + "px";
+
+    gameEl.style.transformOrigin = "top left";
+    gameEl.style.transform = `scale(${scale})`;
   }
 
   function embedOnce() {
@@ -140,41 +150,11 @@
 
     setTimeout(() => {
       gameEl = document.getElementById("game");
-      centerContainer();
-      applySize();
+      applyZoomSize();
     }, 50);
   }
 
-  function centerContainer() {
-    const game = document.getElementById("game");
-
-    const topBar = document.querySelector('.top-message');
-    const bottomBar = document.querySelector('.source');
-
-    const topH = topBar ? topBar.offsetHeight : 0;
-    const bottomH = bottomBar ? bottomBar.offsetHeight : 0;
-
-    const vh = window.innerHeight;
-
-    const size = calculateSize();
-    const availableHeight = vh - topH - bottomH;
-
-    let topOffset = topH + (availableHeight - size.height) / 2;
-
-    topOffset = Math.max(topH, Math.min(topOffset, vh - bottomH - size.height));
-
-    game.style.position = "absolute";
-    game.style.top = topOffset + "px";
-    game.style.left = "0";
-    game.style.right = "0";
-    game.style.marginLeft = "auto";
-    game.style.marginRight = "auto";
-  }
-
-  window.addEventListener("resize", () => {
-    applySize();
-    centerContainer();
-  });
+  window.addEventListener("resize", applyZoomSize);
 
   document.onreadystatechange = function () {
     if (document.readyState === "complete") {
