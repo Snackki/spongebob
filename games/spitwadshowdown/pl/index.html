@@ -82,8 +82,8 @@
   let gameEl;
 
   function getAvailableSize() {
-    const topBar = document.querySelector('.top-message');
-    const bottomBar = document.querySelector('.source');
+    const topBar = document.querySelector(".top-message");
+    const bottomBar = document.querySelector(".source");
 
     const vw = window.innerWidth;
     const vh = window.innerHeight;
@@ -107,28 +107,35 @@
     );
   }
 
-  function applySize() {
+  function applyZoomSize() {
     if (!gameEl) return;
 
     const available = getAvailableSize();
     const scale = calculateScale();
 
-    const w = Math.floor(DEFAULT_WIDTH * scale);
-    const h = Math.floor(DEFAULT_HEIGHT * scale);
+    const scaledWidth = DEFAULT_WIDTH * scale;
+    const scaledHeight = DEFAULT_HEIGHT * scale;
 
-    const left = Math.floor((available.width - w) / 2);
-    const top = Math.floor(available.topH + (available.height - h) / 2);
+    const left = Math.max(0, (available.width - scaledWidth) / 2);
+    const top = Math.max(
+      available.topH,
+      available.topH + (available.height - scaledHeight) / 2
+    );
 
-    gameEl.setAttribute("width", w);
-    gameEl.setAttribute("height", h);
-    gameEl.style.width = w + "px";
-    gameEl.style.height = h + "px";
+    gameEl.style.position = "absolute";
+    gameEl.style.left = Math.floor(left) + "px";
+    gameEl.style.top = Math.floor(top) + "px";
 
-    gameEl.style.left = left + "px";
-    gameEl.style.top = top + "px";
+    gameEl.style.width = DEFAULT_WIDTH + "px";
+    gameEl.style.height = DEFAULT_HEIGHT + "px";
+
+    gameEl.style.transformOrigin = "top left";
+    gameEl.style.transform = `scale(${scale})`;
   }
 
   function embedOnce() {
+    gameEl = document.getElementById("game");
+
     swfobject.embedSWF(
       "main.swf",
       "game",
@@ -137,16 +144,16 @@
       "10",
       null,
       null,
-      { wmode: "opaque" }
+      { wmode: "direct" }
     );
 
     setTimeout(() => {
       gameEl = document.getElementById("game");
-      applySize();
+      applyZoomSize();
     }, 50);
   }
 
-  window.addEventListener("resize", applySize);
+  window.addEventListener("resize", applyZoomSize);
 
   document.onreadystatechange = function () {
     if (document.readyState === "complete") {
