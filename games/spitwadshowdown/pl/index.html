@@ -75,14 +75,15 @@
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <script type="application/javascript" src="../../../swfobject.js"></script>
 <script type="application/javascript">
-  const DEFAULT_WIDTH = 1800;
-  const DEFAULT_HEIGHT = 1200;
+  const DEFAULT_WIDTH = 600;
+  const DEFAULT_HEIGHT = 400;
+  const ASPECT_RATIO = DEFAULT_WIDTH / DEFAULT_HEIGHT;
 
   let gameEl;
 
   function getAvailableSize() {
-    const topBar = document.querySelector(".top-message");
-    const bottomBar = document.querySelector(".source");
+    const topBar = document.querySelector('.top-message');
+    const bottomBar = document.querySelector('.source');
 
     const vw = window.innerWidth;
     const vh = window.innerHeight;
@@ -92,53 +93,43 @@
 
     return {
       width: vw,
-      height: vh - topH - bottomH,
-      topH,
-      bottomH
+      height: vh - topH - bottomH
     };
   }
 
-  function calculateScale() {
+  function calculateSize() {
     const available = getAvailableSize();
-    return Math.min(
-      available.width / DEFAULT_WIDTH,
-      available.height / DEFAULT_HEIGHT
-    );
+
+    let w = available.width;
+    let h = w / ASPECT_RATIO;
+
+    if (h > available.height) {
+      h = available.height;
+      w = h * ASPECT_RATIO;
+    }
+
+    return {
+      width: Math.floor(w),
+      height: Math.floor(h)
+    };
   }
 
-  function applyZoomSize() {
+  function applySize() {
+    const size = calculateSize();
     if (!gameEl) return;
 
-    const available = getAvailableSize();
-    const scale = calculateScale();
-
-    const scaledWidth = Math.floor(DEFAULT_WIDTH * scale);
-    const scaledHeight = Math.floor(DEFAULT_HEIGHT * scale);
-
-    const left = Math.max(0, Math.floor((available.width - scaledWidth) / 2));
-    const top = Math.max(
-      available.topH,
-      Math.floor(available.topH + (available.height - scaledHeight) / 2)
-    );
-
-    gameEl.style.position = "absolute";
-    gameEl.style.left = left + "px";
-    gameEl.style.top = top + "px";
-    gameEl.style.width = scaledWidth + "px";
-    gameEl.style.height = scaledHeight + "px";
+    gameEl.style.width = size.width + "px";
+    gameEl.style.height = size.height + "px";
   }
 
   function embedOnce() {
-    const available = getAvailableSize();
-    const scale = calculateScale();
-    const embedWidth = Math.floor(DEFAULT_WIDTH * scale);
-    const embedHeight = Math.floor(DEFAULT_HEIGHT * scale);
+    gameEl = document.getElementById("game");
 
     swfobject.embedSWF(
       "main.swf",
       "game",
-      embedWidth,
-      embedHeight,
+      DEFAULT_WIDTH,
+      DEFAULT_HEIGHT,
       "10",
       null,
       null,
@@ -147,11 +138,41 @@
 
     setTimeout(() => {
       gameEl = document.getElementById("game");
-      applyZoomSize();
+      centerContainer();
+      applySize();
     }, 50);
   }
 
-  window.addEventListener("resize", applyZoomSize);
+  function centerContainer() {
+    const game = document.getElementById("game");
+
+    const topBar = document.querySelector('.top-message');
+    const bottomBar = document.querySelector('.source');
+
+    const topH = topBar ? topBar.offsetHeight : 0;
+    const bottomH = bottomBar ? bottomBar.offsetHeight : 0;
+
+    const vh = window.innerHeight;
+
+    const size = calculateSize();
+    const availableHeight = vh - topH - bottomH;
+
+    let topOffset = topH + (availableHeight - size.height) / 2;
+
+    topOffset = Math.max(topH, Math.min(topOffset, vh - bottomH - size.height));
+
+    game.style.position = "absolute";
+    game.style.top = topOffset + "px";
+    game.style.left = "0";
+    game.style.right = "0";
+    game.style.marginLeft = "auto";
+    game.style.marginRight = "auto";
+  }
+
+  window.addEventListener("resize", () => {
+    applySize();
+    centerContainer();
+  });
 
   document.onreadystatechange = function () {
     if (document.readyState === "complete") {
