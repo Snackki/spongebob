@@ -9,7 +9,7 @@
 				<string name="spitwad">Bitwa</string>
 				<string name="showdown">na kulki</string>
 				<string name="watch">Oglądaj</string>
-				<string name="watchMessage">SpongeBob<br>Kanciastoporty<br/>na Nickelodeon!</string>
+				<string name="watchMessage">SpongeBob<br/>Kanciastoporty<br/>na Nickelodeon!</string>
 			</object>
 			<object name="shared">
 				<string name="play">Graj</string>
