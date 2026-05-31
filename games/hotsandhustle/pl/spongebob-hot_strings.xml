@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<strings>
+	<localization>
+		<coinPromptGoBuyThe><![CDATA[Idź kupić lody.]]></coinPromptGoBuyThe>
+		<btnYes><![CDATA[Tak]]></btnYes>
+		<btnViewScore><![CDATA[Zobacz wyniki]]></btnViewScore>
+		<btnSubmitScore><![CDATA[Zapisz wynik]]></btnSubmitScore>
+		<btnResume><![CDATA[Wznowienie gry]]></btnResume>
+		<btnQuit><![CDATA[Wyjście]]></btnQuit>
+		<btnPlayAgain><![CDATA[Zagraj jeszcze raz]]></btnPlayAgain>
+		<btnNo><![CDATA[Nie]]></btnNo>
+		<btnNext><![CDATA[Dalej]]></btnNext>
+		<btnHelp><![CDATA[Pomoc]]></btnHelp>
+		<btnContinue><![CDATA[Dalej]]></btnContinue>
+		<btnBack><![CDATA[Powrót]]></btnBack>
+		<btnPlay><![CDATA[Graj]]></btnPlay>
+		<btnClose><![CDATA[Zamknij]]></btnClose>
+		<meltedPopupOhNo><![CDATA[O nie!]]></meltedPopupOhNo>
+		<meltedPopupOops><![CDATA[Ups!]]></meltedPopupOops>
+		<meltedPopupYikes><![CDATA[Auć!]]></meltedPopupYikes>
+		<meltedPopupPatricksIceCreamMelted><![CDATA[Lód Patryka się roztopił. Musisz mu kupić następny.]]></meltedPopupPatricksIceCreamMelted>
+		<coinsPopupYikes><![CDATA[Ojoj!]]></coinsPopupYikes>
+		<coinsPopupOops><![CDATA[Ups!]]></coinsPopupOops>
+		<coinsPopupOhNo><![CDATA[O nie!]]></coinsPopupOhNo>
+		<coinsPopupYouNeedMoreCoins><![CDATA[Potrzebujesz więcej monet, żeby kupić Patrykowi loda.]]></coinsPopupYouNeedMoreCoins>
+		<iceCreamPopupOneCherryandOnion><![CDATA[Pyszny rożek wiśniowo-cebulkowy! Szybko, zanieś go do Patryka, zanim się roztopi!]]></iceCreamPopupOneCherryandOnion>
+		<iceCreamPopupYummy><![CDATA[Pycha!]]></iceCreamPopupYummy>
+		<iceCreamPopupOneStrawberry><![CDATA[Wyśmienity mrożony soczek krówkowo-truskawkowy! Szybko, zanieś go do Patryka, zanim się roztopi!]]></iceCreamPopupOneStrawberry>
+		<iceCreamPopupTasty><![CDATA[Mniam - mniam!]]></iceCreamPopupTasty>
+		<iceCreamPopupOnePotatoChip><![CDATA[Wyborny rożek o smaku awokadowo-ziemniaczany! Szybko, zanieś go do Patryka, zanim się roztopi!]]></iceCreamPopupOnePotatoChip>
+		<iceCreamPopupSweet><![CDATA[Delicje!]]></iceCreamPopupSweet>
+		<patrickPopupButThisOneIsBroken><![CDATA[Ale ten jest zepsuty. Mogę dostać inny?]]></patrickPopupButThisOneIsBroken>
+		<patrickPopupYeah><![CDATA[Tak!]]></patrickPopupYeah>
+		<patrickPopupWheeee><![CDATA[Hura!]]></patrickPopupWheeee>
+		<patrickPopupILoveMyIceCream><![CDATA[Mam super czapeczkę z lodowego rożka, ale mi się roztopiła. Mogę dostać następną?]]></patrickPopupILoveMyIceCream>
+		<patrickPopupItsGreat><![CDATA[Super!]]></patrickPopupItsGreat>
+		<uiScore><![CDATA[Wynik:]]></uiScore>
+		<quitConfirmationAreYouReallySure><![CDATA[Na pewno chcesz wyjść?]]></quitConfirmationAreYouReallySure>
+		<quitConfirmationBarnacles><![CDATA[Natręci]]></quitConfirmationBarnacles>
+		<highScoresTableYou><![CDATA[Ty]]></highScoresTableYou>
+		<helpScreenPoolsAndTowels><![CDATA[Woda i ręczniki chłodzą stopy SpongeBoba.]]></helpScreenPoolsAndTowels>
+		<helpScreenStayCool><![CDATA[Nie przegrzej się!]]></helpScreenStayCool>
+		<helpScreenGetTheCone><![CDATA[Zanieś loda Patrykowi, zanim się roztopi!]]></helpScreenGetTheCone>
+		<helpScreenHurry><![CDATA[Pospiesz się!]]></helpScreenHurry>
+		<helpScreenUseYourArrow><![CDATA[Używaj strzałek, żeby kierować SpongeBobem.]]></helpScreenUseYourArrow>
+		<helpScreenCoinsToBuy><![CDATA[monety, za które kupisz loda.]]></helpScreenCoinsToBuy>
+		<helpScreenCollect><![CDATA[Zbieraj]]></helpScreenCollect>
+		<gameOverYourScore><![CDATA[Twój wynik: ]]></gameOverYourScore>
+		<gameOverHotSauce><![CDATA[Ostry sos!]]></gameOverHotSauce>
+		<highScoresTableScore><![CDATA[Wynik]]></highScoresTableScore>
+		<highScoresTableNickName><![CDATA[Nick]]></highScoresTableNickName>
+		<highScoresTableRank><![CDATA[Miejsce]]></highScoresTableRank>
+		<highScoresTableHighScoresHeader><![CDATA[Najlepsze wyniki]]></highScoresTableHighScoresHeader>
+		<highScoresTableProblemConnectingToServer><![CDATA[Nie można połączyć z serwerem. Spróbuj za chwilę.]]></highScoresTableProblemConnectingToServer>
+		<highScoresTableSendingScore><![CDATA[Przesyłanie wyników...]]></highScoresTableSendingScore>
+		<highScoresTableLoadingScores><![CDATA[Wczytywanie wyników...]]></highScoresTableLoadingScores>
+		<gameLoaderLoading><![CDATA[Wczytywanie...]]></gameLoaderLoading>
+	</localization>
+</strings>
+
+	
