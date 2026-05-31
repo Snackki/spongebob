@@ -127,11 +127,9 @@
     gameEl.style.left = Math.floor(left) + "px";
     gameEl.style.top = Math.floor(top) + "px";
 
-    // Keep the SWF at its native resolution
     gameEl.style.width = DEFAULT_WIDTH + "px";
     gameEl.style.height = DEFAULT_HEIGHT + "px";
 
-    // Zoom it visually
     gameEl.style.transformOrigin = "top left";
     gameEl.style.transform = `scale(${scale})`;
   }
