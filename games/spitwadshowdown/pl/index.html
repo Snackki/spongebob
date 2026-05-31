@@ -51,7 +51,7 @@
       text-decoration: inherit;
     }
 
-      a:hover {
+    a:hover {
       color: #8099cc;
     }
 
@@ -69,7 +69,6 @@
       right: 0;
       font-family: "Tiki Island"
     }
-    
   </style>
 </head>
 
@@ -113,34 +112,33 @@
     const available = getAvailableSize();
     const scale = calculateScale();
 
-    const scaledWidth = DEFAULT_WIDTH * scale;
-    const scaledHeight = DEFAULT_HEIGHT * scale;
+    const scaledWidth = Math.floor(DEFAULT_WIDTH * scale);
+    const scaledHeight = Math.floor(DEFAULT_HEIGHT * scale);
 
-    const left = Math.max(0, (available.width - scaledWidth) / 2);
+    const left = Math.max(0, Math.floor((available.width - scaledWidth) / 2));
     const top = Math.max(
       available.topH,
-      available.topH + (available.height - scaledHeight) / 2
+      Math.floor(available.topH + (available.height - scaledHeight) / 2)
     );
 
     gameEl.style.position = "absolute";
-    gameEl.style.left = Math.floor(left) + "px";
-    gameEl.style.top = Math.floor(top) + "px";
-
-    gameEl.style.width = DEFAULT_WIDTH + "px";
-    gameEl.style.height = DEFAULT_HEIGHT + "px";
-
-    gameEl.style.transformOrigin = "top left";
-    gameEl.style.transform = `scale(${scale})`;
+    gameEl.style.left = left + "px";
+    gameEl.style.top = top + "px";
+    gameEl.style.width = scaledWidth + "px";
+    gameEl.style.height = scaledHeight + "px";
   }
 
   function embedOnce() {
-    gameEl = document.getElementById("game");
+    const available = getAvailableSize();
+    const scale = calculateScale();
+    const embedWidth = Math.floor(DEFAULT_WIDTH * scale);
+    const embedHeight = Math.floor(DEFAULT_HEIGHT * scale);
 
     swfobject.embedSWF(
       "main.swf",
       "game",
-      DEFAULT_WIDTH,
-      DEFAULT_HEIGHT,
+      embedWidth,
+      embedHeight,
       "10",
       null,
       null,
@@ -163,10 +161,8 @@
 </script>
 
 <body>
-
   <div class="top-message">
     <a href="../../../pl" class="back-button">Back</a>
-
     <div style="margin: 0 auto;">
       Bitwa na kulki - Spitwad Showdown
     </div>
@@ -177,6 +173,5 @@
   <div class="source">
     Source: <a target="_blank" href="https://web.archive.org/web/20121124040904/http://www.nick.com.pl/swf/games/sb_spit/main.swf">nick.com.pl/swf/games/sb_spit/main.swf</a><br>Translation .XML is missing, game is mostly in English. A few lines have been modified by me based on <a target="_blank" href="https://web.archive.org/web/20111013135745/http://nick.com.pl/nick-games/g-48/_grythumb/bitwa_na_kulki.jpg">this image</a>. .SWF and config were modified so that the game would look for its files in the correct places.
   </div>
-
 </body>
 </html>
